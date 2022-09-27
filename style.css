@@ -345,7 +345,7 @@ button {
 }
 
 .content-page__section-button_overflow-hidden {
-  overflow-x: hidden;
+  overflow: hidden;
   margin-bottom: 24px;
 }
 
