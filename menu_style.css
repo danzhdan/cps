@@ -73,7 +73,7 @@ button {
   cursor: pointer;
   width: 40px;
   height: 40px;
-  background: url(/source/svg/burger_close.svg) no-repeat;
+  background: url("source/svg/burger_close.svg") no-repeat;
   margin-right: 17px;
 }
 
@@ -89,7 +89,7 @@ button {
   cursor: pointer;
   width: 40px;
   height: 40px;
-  background: url(/source/svg/search.svg) no-repeat;
+  background: url("source/svg/search.svg") no-repeat;
 }
 
 .header__button_margin {
@@ -155,7 +155,7 @@ button {
   cursor: pointer;
   width: 40px;
   height: 40px;
-  background: url("/source/svg/call.svg");
+  background: url("source/svg/call.svg");
 }
 
 .footer__chat-botton {
@@ -165,7 +165,7 @@ button {
   cursor: pointer;
   width: 40px;
   height: 40px;
-  background: url("/source/svg/chat.svg");
+  background: url("source/svg/chat.svg");
 }
 
 .footer__profile-botton {
@@ -175,7 +175,7 @@ button {
   cursor: pointer;
   width: 40px;
   height: 40px;
-  background: url("/source/svg/profile.svg");
+  background: url("source/svg/profile.svg");
 }
 
 .footer__botton_margin {

@@ -330,7 +330,7 @@ button {
   cursor: pointer;
   width: 40px;
   height: 40px;
-  background: url("/source/svg/burger.svg") no-repeat;
+  background: url("source/svg/burger.svg") no-repeat;
 }
 
 .menu__call-button {
@@ -340,7 +340,7 @@ button {
   cursor: pointer;
   width: 40px;
   height: 40px;
-  background: url("/source/svg/call.svg") no-repeat;
+  background: url("source/svg/call.svg") no-repeat;
 }
 
 .menu__chat-button {
@@ -350,7 +350,7 @@ button {
   cursor: pointer;
   width: 40px;
   height: 40px;
-  background: url("/source/svg/chat.svg") no-repeat;
+  background: url("source/svg/chat.svg") no-repeat;
 }
 
 .menu__repair-button {
@@ -360,7 +360,7 @@ button {
   cursor: pointer;
   width: 40px;
   height: 40px;
-  background: url("/source/svg/repair.svg") no-repeat;
+  background: url("source/svg/repair.svg") no-repeat;
 }
 
 .menu__search-button {
@@ -370,7 +370,7 @@ button {
   cursor: pointer;
   width: 40px;
   height: 40px;
-  background: url("/source/svg/search.svg") no-repeat;
+  background: url("source/svg/search.svg") no-repeat;
 }
 
 .menu__profile-button {
@@ -380,7 +380,7 @@ button {
   cursor: pointer;
   width: 40px;
   height: 40px;
-  background: url("/source/svg/profile.svg") no-repeat;
+  background: url("source/svg/profile.svg") no-repeat;
 }
 
 .menu__button-size {
