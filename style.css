@@ -185,12 +185,39 @@ button {
     align-items: center;
   }
 
-  .content-page__button {
+  .content-page__repair-button {
     display: flex;
     align-items: center;
     border: none;
     background-color: transparent;
     cursor: pointer;
+    margin-right: 32px;
+  }
+
+  .content-page__repair-button::after {
+    content: "";
+    width: 40px;
+    margin-left: 8px;
+    position: relative;
+    height: 40px;
+    background: url("source/svg/repair.svg") no-repeat;
+  }
+
+  .content-page__checkstatus-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .content-page__checkstatus-button::after {
+    content: "";
+    width: 40px;
+    margin-left: 8px;
+    position: relative;
+    height: 40px;
+    background: url("source/svg/checkstatus.svg") no-repeat;
   }
 
   .content-page__button-text {
@@ -296,6 +323,66 @@ button {
   height: 40px;
 }
 
+.menu__burger-button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: url("/source/svg/burger.svg") no-repeat;
+}
+
+.menu__call-button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: url("/source/svg/call.svg") no-repeat;
+}
+
+.menu__chat-button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: url("/source/svg/chat.svg") no-repeat;
+}
+
+.menu__repair-button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: url("/source/svg/repair.svg") no-repeat;
+}
+
+.menu__search-button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: url("/source/svg/search.svg") no-repeat;
+}
+
+.menu__profile-button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: url("/source/svg/profile.svg") no-repeat;
+}
+
 .menu__button-size {
   width: 40px;
   height: 40px;
@@ -360,11 +447,22 @@ button {
   font-family: TT Lakes Medium;
 }
 
-.block-text__button-svg {
+.block-text__button {
+  display: flex;
+  align-items: center;
   margin-top: 10px;
   padding: 0;
   border: none;
   background-color: transparent;
   cursor: pointer;
-  margin-right: 16px;
+  font-family: TT Lakes Medium;
+}
+
+.block-text__button::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: relative;
+  padding-left: 12px;
+  background: url("source/svg/expand.svg") no-repeat;
 }

@@ -1,0 +1,232 @@
+@font-face {
+  font-family: "TT Lakes Regular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("source/fonts/TTLakes-Regular.eot");
+  src: local("TT Lakes Regular"), local("TTLakes-Regular"),
+    url("source/fonts/TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
+    url("source/fonts/TTLakes-Regular.woff") format("woff"),
+    url("source/fonts/TTLakes-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TT Lakes Medium";
+  src: url("source/fonts/TTLakes-Medium.eot");
+  src: url("source/fonts/TTLakes-Medium.eot?#iefix") format("embedded-opentype"),
+    url("source/fonts/TTLakes-Medium.woff") format("woff"),
+    url("source/fonts/TLakes-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Bold";
+  font-weight: normal;
+  font-style: normal;
+  src: url("source/fonts/TTLakes-Bold.eot");
+  src: local("TT Lakes Regular"), local("TTLakes-Regular"),
+    url("source/fonts/TTLakes-Bold.eot?#iefix") format("embedded-opentype"),
+    url("source/fonts/TTLakes-Bold.woff") format("woff"),
+    url("source/fonts/TTLakes-Bold.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+button {
+  font-family: "TT Lakes Medium";
+  font-size: 16px;
+  letter-spacing: -0.5px;
+}
+
+.container {
+  max-width: 320px;
+  padding: 0 20px;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
+    10px 0px 52px rgba(14, 24, 80, 0.2);
+  min-height: 100vh;
+}
+.header {
+  padding-top: 18px;
+}
+
+.header__block-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header__button-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header__button-close {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: url(/source/svg/burger_close.svg) no-repeat;
+  margin-right: 17px;
+}
+
+.header__logo {
+  height: 52px;
+  width: 98px;
+}
+
+.header__button-search {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: url(/source/svg/search.svg) no-repeat;
+}
+
+.header__button_margin {
+  margin-right: 16px;
+}
+
+.navigition__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.navigition__menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 auto;
+}
+
+.navigition__menu-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #1b1c21;
+  margin-bottom: 32px;
+}
+
+.navigition__menu-button:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.navigition__menu-button_active::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 32px;
+  left: 0;
+  background: #41f6d7;
+  border-radius: 0 50px 50px 0;
+}
+
+.footer__botton-block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer__botton {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.footer__call-botton {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: url("/source/svg/call.svg");
+}
+
+.footer__chat-botton {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: url("/source/svg/chat.svg");
+}
+
+.footer__profile-botton {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: url("/source/svg/profile.svg");
+}
+
+.footer__botton_margin {
+  margin-right: 16px;
+}
+
+.footer__email {
+  text-decoration: none;
+  color: #1b1c21;
+}
+
+.footer__email:hover {
+  opacity: 0.7;
+}
+
+.footer__tel {
+  text-decoration: none;
+  color: #1b1c21;
+  font-family: "TT Lakes Bold";
+  font-size: 24px;
+}
+
+.footer__block-contact {
+  margin-top: 16px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 32px;
+}
+
+.footer__change-lang {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.change-lang__button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.change-lang__button:not(:last-of-type) {
+  margin-right: 7px;
+}
+
+.change-lang__button:hover {
+  opacity: 0.5;
+}
