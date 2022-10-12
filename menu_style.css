@@ -96,7 +96,7 @@ button {
   margin-right: 16px;
 }
 
-.navigition__body {
+.navigition {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -108,9 +108,10 @@ button {
   flex-direction: column;
   align-items: flex-start;
   flex: 1 0 auto;
+  min-height: 63vh;
 }
 
-.navigition__menu-button {
+.navigition__menu-link {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -118,12 +119,12 @@ button {
   margin-bottom: 32px;
 }
 
-.navigition__menu-button:hover {
-  opacity: 0.7;
-  transition: 0.5s;
+.navigition__menu-link:hover {
+  opacity: 0.5;
+  transition: 1s;
 }
 
-.navigition__menu-button_active::before {
+.navigition__menu-link_active::before {
   content: "";
   position: absolute;
   width: 4px;
@@ -133,22 +134,13 @@ button {
   border-radius: 0 50px 50px 0;
 }
 
-.footer__botton-block {
+.footer__button-block {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.footer__botton {
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  width: 40px;
-  height: 40px;
-}
-
-.footer__call-botton {
+.footer__call-button {
   padding: 0;
   border: none;
   background-color: transparent;
@@ -158,7 +150,7 @@ button {
   background: url("source/svg/call.svg");
 }
 
-.footer__chat-botton {
+.footer__chat-button {
   padding: 0;
   border: none;
   background-color: transparent;
@@ -168,7 +160,7 @@ button {
   background: url("source/svg/chat.svg");
 }
 
-.footer__profile-botton {
+.footer__profile-button {
   padding: 0;
   border: none;
   background-color: transparent;
@@ -178,7 +170,7 @@ button {
   background: url("source/svg/profile.svg");
 }
 
-.footer__botton_margin {
+.footer__button_margin {
   margin-right: 16px;
 }
 
@@ -188,7 +180,8 @@ button {
 }
 
 .footer__email:hover {
-  opacity: 0.7;
+  opacity: 0.5;
+  transition: 1s;
 }
 
 .footer__tel {
@@ -202,19 +195,13 @@ button {
   margin-top: 16px;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 32px;
-}
-
 .footer__change-lang {
   display: flex;
   align-items: flex-start;
   margin-top: 40px;
 }
 
-.change-lang__button {
+.footer__change-lang-button {
   padding: 0;
   border: none;
   background-color: transparent;
@@ -223,10 +210,11 @@ button {
   height: 25px;
 }
 
-.change-lang__button:not(:last-of-type) {
+.footer__change-lang-button:not(:last-of-type) {
   margin-right: 7px;
 }
 
-.change-lang__button:hover {
+.footer__change-lang-button:hover {
   opacity: 0.5;
+  transition: 1s;
 }
