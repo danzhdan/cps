@@ -121,7 +121,7 @@ button {
 
 .navigition__menu-link:hover {
   opacity: 0.5;
-  transition: 1s;
+  transition-duration: 1s;
 }
 
 .navigition__menu-link_active::before {
@@ -216,5 +216,5 @@ button {
 
 .footer__change-lang-button:hover {
   opacity: 0.5;
-  transition: 1s;
+  transition-duration: 1s;
 }
